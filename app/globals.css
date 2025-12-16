@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --primary: #fb342f;
+  --heading: #1e1e1e;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-primary: var(--primary);
+  --color-heading: var(--heading);
+
+  /* Replace old geist fonts */
+  --font-sans: var(--font-montserrat);
+  --font-mono: var(--font-syne);
+  --font-alexbrush: var(--font-alexbrush);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-montserrat), sans-serif;
+}
