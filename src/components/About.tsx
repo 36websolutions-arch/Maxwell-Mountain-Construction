@@ -19,21 +19,24 @@ export default function about() {
               Who we are
             </p>
             <h2 className="lg:text-[48px] md:text-3xl sm:text-2xl text-[22px] font-mono font-semibold ">
-              About <span className="text-primary">Storm Troopers</span>
+              About{" "}
+              <span className="text-primary">
+                Maxwell Mountain Construction
+              </span>
             </h2>
             <div className="space-y-10 mt-5">
               <p className="text-[16px] font-sans font-normal text-heading">
-                Our focus is delivering excellent work with high-quality
-                materials and craftsmanship that stands up to time and weather.
-                Every roof and siding project is installed with precision so
-                homeowners get long-term value and a result they can depend on.
+                At Maxwell Mountain Construction LLC, we’re dedicated to
+                providing reliable, high-quality construction services for
+                homeowners and businesses in our community. Led by Todd Maxwell,
+                our team specializes in roofing, siding, gutters, window
+                replacements, remodels, and general repairs.
               </p>
               <p className="text-[16px] font-sans font-normal text-heading">
-                We’re consistent, reliable, and easy to work with from start to
-                finish. And when a storm does cause damage, we can handle the
-                insurance claim process and guide homeowners through getting a
-                new roof approved. Our reputation comes from solid workmanship
-                and clear communication — that’s why people trust Storm Troopers
+                We focus on craftsmanship, honest communication, and making
+                every project simple and stress-free for our clients. Whether
+                it’s a small repair or a full renovation, we’re here to help
+                bring your vision to life with quality you can trust.
               </p>
             </div>
           </div>

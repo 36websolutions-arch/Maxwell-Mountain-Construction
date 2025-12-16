@@ -12,7 +12,7 @@ export default function Navbar() {
   return (
     <header className="relative z-100">
       {/* Navbar translucent background */}
-      <div className="w-full h-20 bg-[#565656D9]/70" />
+      <div className="w-full h-20 bg-[#ffff]/30" />
 
       {/* Actual Navbar Content */}
       <nav className="absolute inset-x-0 top-0 mx-auto container px-6  h-20 flex items-center justify-between">
@@ -32,7 +32,7 @@ export default function Navbar() {
         </div>
 
         {/* Desktop Menu */}
-        <div className="hidden lg:flex items-center gap-8 text-[20px] font-sans text-white font-light">
+        <div className="hidden lg:flex items-center gap-8 text-[20px] font-sans text-white font-semibold">
           <Link href="#home" className="hover:underline">
             Home
           </Link>
@@ -42,12 +42,12 @@ export default function Navbar() {
           <Link href="#services" className="hover:underline">
             Service
           </Link>
-          <Link href="#sliding" className="hover:underline">
+          {/* <Link href="#sliding" className="hover:underline">
             Siding Installation
           </Link>
           <Link href="#damage" className="hover:underline">
             Storm Damage
-          </Link>
+          </Link> */}
           <Link href="#faq" className="hover:underline">
             FAQ
           </Link>
@@ -57,11 +57,11 @@ export default function Navbar() {
         <div className="  flex items-center h-full gap-4">
           {/* Desktop Phone Button */}
           <Link
-            href="tel:+16143974368"
+            href="tel:+18022334841"
             className="hidden h-full lg:inline-flex items-center gap-2 bg-primary text-white px-6 rounded shadow"
             aria-label="Call">
             <FiPhone />
-            <span className="font-medium">(614) 397-4368</span>
+            <span className="font-medium">802-233-4841</span>
           </Link>
 
           {/* Mobile Menu Button */}
@@ -109,7 +109,7 @@ export default function Navbar() {
                     Service
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link
                     href="#sliding"
                     className="block px-3 py-2 rounded hover:bg-gray-100 cursor-pointer"
@@ -124,13 +124,13 @@ export default function Navbar() {
                     onClick={() => setOpen(false)}>
                     Storm Damage
                   </Link>
-                </li>
+                </li> */}
                 <li>
                   <Link
-                    href="tel:+16143974368"
+                    href="tel:+18022334841"
                     className="block px-3 py-2 rounded hover:bg-gray-100 flex items-center gap-2"
                     onClick={() => setOpen(false)}>
-                    <FiPhone /> (614) 397-4368
+                    <FiPhone /> 802-233-4841
                   </Link>
                 </li>
               </ul>

@@ -17,8 +17,8 @@ const syne = Syne({
 });
 
 export const metadata: Metadata = {
-  title: "Storm Troopers",
-  description: "Storm Troopers Roofing Services",
+  title: "Maxwell Mountain Construction LLC",
+  description: "Your Local Construction & Remodeling Experts",
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon.ico",

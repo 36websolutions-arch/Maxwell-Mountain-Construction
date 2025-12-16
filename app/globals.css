@@ -2,7 +2,7 @@
 
 :root {
   --background: #ffffff;
-  --primary: #fb342f;
+  --primary: #a52929;
   --heading: #1e1e1e;
 }
 
@@ -19,6 +19,5 @@
 
 body {
   background: var(--background);
-  color: var(--foreground);
   font-family: var(--font-montserrat), sans-serif;
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import ServicesCard from "../common/ServicesCard";
+import Image from "next/image";
 
 interface Service {
   title: string;
@@ -11,36 +12,52 @@ interface Service {
 
 const servicesData: Service[] = [
   {
-    title: "Roof Inspections",
+    title: "General Repairs, Upgrades & Improvements",
     description:
-      "Get a complete, professional assessment of your roof’s condition. Our experts inspect every detail—from shingles and flashing to ventilation and structural integrity—to identify hidden issues before they become costly repairs. Perfect for property owners who want peace of mind and long-term protection.",
+      "We provide full-scale siding solutions designed for long-term performance. Our team evaluates moisture barriers, flashing, and structural framing before installing high-grade siding engineered for severe weather. Every install includes precision fastening, proper ventilation, and detailed trim work so your exterior stays strong, sealed, and visually consistent.",
     kicker: "WHAT WE DO",
     phone: "(614) 397-4368",
     imageSrc: "/images/roof1.svg",
   },
   {
-    title: "Roof Repairs",
+    title: "Roofing & siding",
     description:
-      "Need professional roof repair? We fix leaks, broken shingles, flashing problems, and storm damage with dependable workmanship. Our team inspects, repairs, and reinforces your roof to keep your home safe and secure.",
+      "We provide full-scale siding solutions designed for long-term performance. Our team evaluates moisture barriers, flashing, and structural framing before installing high-grade siding engineered for severe weather. Every install includes precision fastening, proper ventilation, and detailed trim work so your exterior stays strong, sealed, and visually consistent.",
     kicker: "WHAT WE DO",
     phone: "(614) 397-4368",
     imageSrc: "/images/roof2.png",
   },
   {
-    title: "Roof Replacement",
+    title: "Kitchen, Bathroom & Basement Remodels",
     description:
-      "When repairs aren’t enough, a full roof replacement ensures long-term protection for your home. We remove old materials, inspect the structure, and install a new, high-quality roof built to last. Our team works efficiently, uses premium products, and delivers a clean, durable finish that boosts your home’s safety and value.",
+      "We handle functional, well-planned remodels that improve how your home looks, feels, and works day to day. From kitchens and bathrooms to finished basements, we focus on smart layouts, clean installations, and materials built to last. Our team coordinates demolition, framing, finish work, and final details with a clear plan and realistic timelines. The result is a finished space that adds comfort, usability, and long-term value to your home.",
     kicker: "WHAT WE DO",
     phone: "(614) 397-4368",
-    imageSrc: "/images/roof3.png",
+    imageSrc: "/images/Kitchen.png",
   },
   {
-    title: "Siding Installation",
+    title: "Gutters & window replacements",
     description:
-      "We provide full-scale siding solutions designed for long-term performance. Our team evaluates moisture barriers, flashing, and structural framing before installing high-grade siding engineered for severe weather. Every install includes precision fastening, proper ventilation, and detailed trim work so your exterior stays strong, sealed, and visually consistent.",
+      "We install and replace gutters and windows designed to protect your home from water intrusion, drafts, and long-term structural damage. Proper fit, alignment, and sealing are critical—and that’s where experience matters.Every installation is measured carefully and completed with secure fastening, clean trim work, and attention to drainage and insulation so your home stays dry, efficient, and protected in all seasons.",
     kicker: "WHAT WE DO",
     phone: "(614) 397-4368",
-    imageSrc: "/images/roof4.png",
+    imageSrc: "/images/Gutters.png",
+  },
+  {
+    title: "Residential & Vacation Rental Cleaning",
+    description:
+      "We provide reliable cleaning services for homes and vacation rentals that need consistent, detail-focused care. Whether it’s a turnover clean between guests or routine residential service, our team follows a structured checklist to ensure every space is thoroughly cleaned and ready for use. We focus on efficiency, attention to detail, and dependable scheduling so homeowners and property managers can trust that their property is maintained to a high standard every time.",
+    kicker: "WHAT WE DO",
+    phone: "(614) 397-4368",
+    imageSrc: "/images/Gutters.png",
+  },
+  {
+    title: "Construction Consulting",
+    description:
+      "We offer practical construction consulting to help homeowners and property owners make informed decisions before and during a project. From scope planning and material selection to contractor coordination and project oversight, we provide clear guidance rooted in real-world experience. Our goal is to prevent costly mistakes, reduce delays, and ensure projects are planned correctly from the start—saving time, money, and unnecessary stress.",
+    kicker: "WHAT WE DO",
+    phone: "(614) 397-4368",
+    imageSrc: "/images/Gutters.png",
   },
 ];
 
@@ -48,7 +65,15 @@ export default function Comprehensive() {
   return (
     <section id="services" className="py-16 relative bg-white">
       {/* Dark Background (450px height only) */}
-      <div className="absolute top-0 left-0 w-full h-[450px] bg-heading z-10"></div>
+      <div className="absolute top-0 left-0 w-full h-[458px]  z-10">
+        <Image
+          src="/images/Comprehensive.png"
+          alt="hero"
+          width={1920}
+          height={458}
+          className="w-full h-fit object-cover brightness-60"
+        />
+      </div>
 
       <div className="relative z-20">
         <div className="container mx-auto px-6">
@@ -59,14 +84,15 @@ export default function Comprehensive() {
             </p>
 
             <h1 className="text-white text-[28px] md:text-[40px] lg:text-[48px] font-mono font-bold leading-tight">
-              Comprehensive Roofing Services
+              Comprehensive Services
             </h1>
 
             <p className="text-[16px] font-sans font-normal text-white mt-5">
-              Storm Troopers delivers a wide range of services designed to meet
-              the specific needs of homeowners, property managers, and
-              commercial developers. Each roof is unique, and so is every
-              roofing project.
+              Maxwell Mountain Construction delivers a wide range of services
+              designed to meet the specific needs of homeowners, property
+              managers, and commercial developers. We don&apos;t believe in
+              cookie-cutter solutions. Each roof is unique, and so is every
+              roofing project we take on.
             </p>
           </div>
 

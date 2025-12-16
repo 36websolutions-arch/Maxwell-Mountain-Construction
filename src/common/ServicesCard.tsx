@@ -39,7 +39,7 @@ export default function ServicesCard({
             {kicker}
           </p>
 
-          <h2 className="lg:text-[48px] md:text-3xl sm:text-2xl text-[22px] font-semibold font-mono">
+          <h2 className="lg:text-[40px] md:text-3xl sm:text-2xl text-[22px] font-semibold font-mono">
             {title}
           </h2>
 
