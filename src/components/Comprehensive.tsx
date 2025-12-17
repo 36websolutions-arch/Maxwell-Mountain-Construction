@@ -49,7 +49,7 @@ const servicesData: Service[] = [
       "We provide reliable cleaning services for homes and vacation rentals that need consistent, detail-focused care. Whether it’s a turnover clean between guests or routine residential service, our team follows a structured checklist to ensure every space is thoroughly cleaned and ready for use. We focus on efficiency, attention to detail, and dependable scheduling so homeowners and property managers can trust that their property is maintained to a high standard every time.",
     kicker: "WHAT WE DO",
     phone: "(614) 397-4368",
-    imageSrc: "/images/Gutters.png",
+    imageSrc: "/images/roof5.png",
   },
   {
     title: "Construction Consulting",
@@ -57,7 +57,7 @@ const servicesData: Service[] = [
       "We offer practical construction consulting to help homeowners and property owners make informed decisions before and during a project. From scope planning and material selection to contractor coordination and project oversight, we provide clear guidance rooted in real-world experience. Our goal is to prevent costly mistakes, reduce delays, and ensure projects are planned correctly from the start—saving time, money, and unnecessary stress.",
     kicker: "WHAT WE DO",
     phone: "(614) 397-4368",
-    imageSrc: "/images/Gutters.png",
+    imageSrc: "/images/roof6.png",
   },
 ];
 
