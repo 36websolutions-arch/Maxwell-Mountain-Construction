@@ -20,7 +20,7 @@ const CompactFAQ = () => {
     {
       question: "Do you offer free consultations or inspections?",
       answer:
-        "-Yes. We offer free consultations and inspections to evaluate your project, answer questions, and provide honest recommendations before any work begins.",
+        "Yes. We offer free consultations and inspections to evaluate your project, answer questions, and provide honest recommendations before any work begins.",
     },
     // {
     //   question: "Can you repair storm damage without replacing the whole roof?",
