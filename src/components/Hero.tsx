@@ -9,7 +9,7 @@ const HERO_IMG = "/images/hero.png";
 export default function Hero() {
   return (
     <section className="relative w-full overflow-hidden">
-      <div className="relative w-full min-h-[520px] md:h-[900px] lg:h-[837px] bg-[#1E1E1E6E]">
+      <div className="relative w-full min-h-[520px] md:h-[600px] lg:h-[700px] bg-[#1E1E1E6E]">
         <Navbar />
         <div className="absolute inset-0 z-10">
           <Image
