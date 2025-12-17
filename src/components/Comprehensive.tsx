@@ -17,7 +17,7 @@ const servicesData: Service[] = [
       "We provide full-scale siding solutions designed for long-term performance. Our team evaluates moisture barriers, flashing, and structural framing before installing high-grade siding engineered for severe weather. Every install includes precision fastening, proper ventilation, and detailed trim work so your exterior stays strong, sealed, and visually consistent.",
     kicker: "WHAT WE DO",
     phone: "(614) 397-4368",
-    imageSrc: "/images/roof1.svg",
+    imageSrc: "/images/roof4.png",
   },
   {
     title: "Roofing & siding",

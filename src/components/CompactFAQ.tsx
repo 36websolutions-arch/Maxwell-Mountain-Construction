@@ -8,30 +8,30 @@ const CompactFAQ = () => {
 
   const faqData = [
     {
-      question: "How long does a claim take from start to finish?",
+      question: "How long does it take for the qoute?",
       answer:
-        "Most roofing insurance claims take 2–6 weeks from inspection to final installation. Timing depends on your insurance company, adjuster availability, and how busy the storm season is.",
+        "We typically provide a preliminary estimate within 24–48 hours after an on-site consultation or project review. Final timelines depend on project scope, materials, and scheduling.",
     },
     {
-      question: "What is the preferred Shingle we use?",
+      question: "How many years have you been on construction?",
       answer:
-        " Atlas shingles. 130 mph wind resistance that comes with  scotch guard technology to eliminate algae growth and more durable than the competition",
+        "Yes. We work year-round and schedule projects based on weather conditions, project type, and material requirements to ensure quality and safety.",
     },
     {
-      question: "How do you find a roofing contractor you can trust?",
+      question: "Do you offer free consultations or inspections?",
       answer:
-        "The best way to find a roofer you can trust is to look for honesty, transparency, and real customer feedback. Make sure they’re licensed, insured, and willing to show past projects. A trustworthy contractor explains everything clearly and never pressures you",
+        "-Yes. We offer free consultations and inspections to evaluate your project, answer questions, and provide honest recommendations before any work begins.",
     },
-    {
-      question: "Can you repair storm damage without replacing the whole roof?",
-      answer:
-        "Yes. If the damage is isolated, we can repair only the affected shingles or sections. However, if the storm damage is widespread or affects the roof’s structure, a full replacement may be required for safety and insurance approval.",
-    },
-    {
-      question: "How fast should I act after a storm?",
-      answer:
-        " As quickly as possible. Storm damage spreads fast and insurance deadlines don’t wait. We can inspect your roof within 24 hours, document everything, and help you secure your claim before problems get worse.",
-    },
+    // {
+    //   question: "Can you repair storm damage without replacing the whole roof?",
+    //   answer:
+    //     "Yes. If the damage is isolated, we can repair only the affected shingles or sections. However, if the storm damage is widespread or affects the roof’s structure, a full replacement may be required for safety and insurance approval.",
+    // },
+    // {
+    //   question: "How fast should I act after a storm?",
+    //   answer:
+    //     " As quickly as possible. Storm damage spreads fast and insurance deadlines don’t wait. We can inspect your roof within 24 hours, document everything, and help you secure your claim before problems get worse.",
+    // },
   ];
 
   const toggleFAQ = (index: any) => {
@@ -45,7 +45,7 @@ const CompactFAQ = () => {
         <div className="mb-8 text-center">
           <h4 className="text-[20px] font-semibold text-heading mb-2">FAQ</h4>
           <h2 className="lg:text-[48px] md:text-4xl sm:text-3xl text-2xl font-mono font-semibold text-heading">
-            Answers to your <br /> roofing questions
+            Answers to common <br /> questions
           </h2>
         </div>
 

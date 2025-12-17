@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import { FaCheckSquare } from "react-icons/fa";
 import { MdLocalPhone } from "react-icons/md";
@@ -6,21 +7,21 @@ import { MdLocalPhone } from "react-icons/md";
 export default function WhyAddressRoof() {
   const benefits = [
     {
-      title: "Damage compounds over time.",
+      title: "Proper moisture protection and sealing",
       description:
         "A tiny leak can lead to rot, insulation loss, and foundation problems.",
     },
     {
-      title: "Insurance complications.",
+      title: "Structural soundness and code compliance.",
       description:
         "Failing to act may void your policy or limit coverage due to perceived neglect.",
     },
     {
-      title: "Higher costs.",
+      title: "Durable materials suited for the environment.",
       description: "Emergency services cost more than routine maintenance.",
     },
     {
-      title: "Energy efficiency.",
+      title: "Finish work that protects and enhances your property.",
       description:
         "A compromised roof system increases heating and cooling bills by letting air escape.",
     },
@@ -48,12 +49,15 @@ export default function WhyAddressRoof() {
           <div className="order-1 lg:order-2">
             <div className="max-w-2xl lg:max-w-none mx-auto lg:mx-0">
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-heading font-mono mb-4 leading-8 lg:leading-14">
-                Why Address Roof <br className="" /> Issues Early?
+                Built for Long-Term <br className="" />
+                Performance
               </h1>
 
               <p className="text-base sm:text-lg lg:text-xl text-heading mb-6 leading-relaxed font-sans">
-                Waiting to fix your roof can turn a small issue into a
-                full-blown crisis. Here&apos;s why early intervention is essential:
+                Construction work shouldn’t just look good on day one—it should
+                perform for years. We focus on proper preparation, structural
+                integrity, and correct installation so our work stands up to
+                weather, wear, and time.
               </p>
 
               <div className="space-y-2 mb-4">
@@ -79,9 +83,11 @@ export default function WhyAddressRoof() {
               <div className="flex justify-center lg:justify-start">
                 <button className="flex items-center gap-2.5 sm:gap-3.5 bg-primary hover:bg-primary/90 px-6 sm:px-8 py-3 sm:py-4 text-white font-sans cursor-pointer">
                   <MdLocalPhone className="w-4 h-4 sm:w-5 sm:h-5 group-hover:rotate-12 transition-transform duration-300" />
-                  <span className="underline text-base sm:text-lg lg:text-xl font-medium">
-                    (614) 397-4368
-                  </span>
+                  <Link
+                    href="tel:802-233-4841"
+                    className="underline text-base sm:text-lg lg:text-xl font-medium">
+                    802-233-4841
+                  </Link>
                 </button>
               </div>
             </div>

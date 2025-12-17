@@ -1,26 +1,20 @@
 import React from "react";
 import Image from "next/image";
 
-interface Service {
-  id: number;
-  title: string;
-  desc: string;
-}
-const data: Service[] = [
-  {
-    id: 1,
-    title: "Storm, Hail & Wind Damage",
-    desc: "Severe weather can crack shingles, lift tiles, create leaks, and weaken the entire roof system. We document all storm-related damage, secure the property, and restore the roof to proper code standards using high-quality materials built for harsh conditions.",
-  },
-  {
-    id: 2,
-    title: "How Insurance Works",
-    desc: "Most storm claims cover the full roof replacement , you only pay your deductible. We handle the inspection, photos, paperwork, and the adjuster meeting. Once approved, insurance pays for all necessary labor and materials. We manage the entire process from inspection to final installation.",
-  },
+const data = [
+  "Maxwell Mountain Construction LLC",
+  "Serving Waterbury and surrounding areas.",
+  "We offer dependable winter services including:",
+  "* Driveway snow plowing",
+  "* Walkway and sidewalk shoveling",
+  "* Salting services (advance notice required)",
+  "Professional service you can count on.",
+  "Call or Text: 802-233-4841",
+  "Duxbury,Waterbury, Middlesex, and more",
 ];
 export default function Storm() {
   return (
-    <section id="damage" className="py-16 bg-heading">
+    <section id="damage" className="py-16 bg-[#F0F8FF]">
       <div className="container mx-auto px-6">
         <div className="grid lg:grid-cols-2 md:grid-cols-1 grid-cols-1 lg:gap-16 xl:gap-16 md:gap-10 gap-5 justify-between">
           <div>
@@ -33,20 +27,23 @@ export default function Storm() {
             />
           </div>
           <div className="flex flex-col items-start justify-center">
-            <h5 className="text-mono lg:text-[40px] md:text-4xl sm:text-2xl text-2xl text-white font-semibold ">
-              Storm Damage
+            <h5 className="text-mono lg:text-[40px] md:text-4xl sm:text-2xl text-2xl text-heading font-semibold ">
+              Reliable Local Snow Plowing for Your Driveway
             </h5>
             <div>
-              {data.map((item, index) => (
-                <div key={index} className="space-y-5 mt-5">
-                  <h2 className="text-sans text-[16px] text-white font-bold ">
-                    {item.title}
-                  </h2>
-                  <p className="text-[16px] font-sans font-normal text-white">
-                    {item.desc}
-                  </p>
-                </div>
-              ))}
+              <p className="text-[16px] font-sans font-bold text-heading mt-5">
+                Offer flat one time fee at your conveincence or discounted
+                contract that covers 25 plows for the cost of 18 to 20
+              </p>
+              <ul className="mt-5">
+                {data.map((item, index) => (
+                  <li
+                    key={index}
+                    className="text-[16px]  font-sans font-normal text-heading ">
+                    {item}
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
         </div>

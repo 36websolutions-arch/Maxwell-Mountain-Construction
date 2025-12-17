@@ -27,14 +27,6 @@ export default function Footer() {
       label: "Services",
     },
     {
-      href: "#sliding",
-      label: "Siding Installation",
-    },
-    {
-      href: "#damage",
-      label: "Storm Damage",
-    },
-    {
       href: "#faq",
       label: "FAQ",
     },
@@ -66,7 +58,7 @@ export default function Footer() {
                 sizes="(max-width: 1024px) 50vw, 33vw"
                 priority={index < 2}
               />
-              <div className="absolute inset-0 bg-heading/60"></div>
+              <div className="absolute inset-0 bg-[#13324E]/60"></div>
             </div>
           ))}
         </div>
@@ -89,7 +81,7 @@ export default function Footer() {
                 <p className="text-white leading-relaxed font-sans text-base lg:text-lg font-light tracking-wide mb-6 lg:mb-8 grow">
                   Get reliable roofing and siding services—from repairs to full
                   installations. We also help homeowners get insurance-covered
-                  roof and siding replacements.
+                  roof and siding replacements
                 </p>
               </div>
             </div>
@@ -122,7 +114,9 @@ export default function Footer() {
                     <span className="w-2 h-2 bg-white rounded-full mr-3 lg:mr-4 mt-2 group-hover:scale-150 transition-transform duration-200 shrink-0"></span>
                     <div>
                       <span className="text-white font-light hover:text-gray-200 font-sans text-base lg:text-lg transition-all duration-200 hover:translate-x-2 transform">
-                        Columbus, Ohio & Surrounding Areas
+                        9 North Main Street , <br /> Waterbury, VT, United{" "}
+                        <br />
+                        States, Vermont
                       </span>
                     </div>
                   </div>
@@ -131,12 +125,11 @@ export default function Footer() {
                 <li className="flex items-start group">
                   <div className="flex items-start w-full">
                     <span className="w-2 h-2 bg-white rounded-full mr-3 lg:mr-4 mt-2 group-hover:scale-150 transition-transform duration-200 shrink-0"></span>
-                    <div className="flex-1">
+                    <div className="flex-1 ">
                       <Link
-                        href="mailto:stormtroopersroofing@stormtroopersroofing.com"
+                        href="mailto:todd@maxwellmountainconstruction.com"
                         className="text-white font-light hover:text-gray-200 font-sans text-base lg:text-lg transition-all duration-200 hover:translate-x-2 transform">
-                        stormtroopersroofing@
-                        <span className="block">stormtroopersroofing.com</span>
+                        todd@maxwellmountainc <br /> onstruction.com
                       </Link>
                     </div>
                   </div>
@@ -147,9 +140,9 @@ export default function Footer() {
                     <span className="w-2 h-2 bg-white rounded-full mr-3 lg:mr-4 mt-2 group-hover:scale-150 transition-transform duration-200 shrink-0"></span>
                     <div>
                       <Link
-                        href="tel:6143974368"
+                        href="tel:8022334841"
                         className="text-white font-light hover:text-gray-200 font-sans text-base lg:text-lg transition-all duration-200 hover:translate-x-2 transform">
-                        (614) 397-4368
+                        802-233-4841
                       </Link>
                     </div>
                   </div>
@@ -180,6 +173,9 @@ export default function Footer() {
             </div>
           </div>
         </div>
+        <p className="text-center font-sans text-md text-white font-normal mt-10 ">
+          © Copyright 2025 All Rights Reserved.
+        </p>
       </div>
     </div>
   );

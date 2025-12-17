@@ -15,13 +15,13 @@ export default function Home() {
       <Hero />
       <About />
       <Comprehensive />
-      <Siding />
-      <RoofTypes />
-      <Storm />
+      {/* <Siding /> */}
+      {/* <RoofTypes /> */}
       <WhyAddressRoof />
       <HowWeWork />
+      <Storm />
       <CompactFAQ />
-      <Footer/>
+      <Footer />
     </main>
   );
 }

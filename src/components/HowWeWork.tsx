@@ -5,30 +5,40 @@ export default function HowWeWork() {
   const process = [
     {
       number: 1,
-      title: "Step 1: Inspect and File Claim",
-      para: "We inspect your roof, document storm damage, take photos, and help you file your claim with the insurance company. This sets the foundation for a smooth approval.",
+      title: "Step 1: Free Consultation & Inspection",
+      para: "We start by listening to your needs, inspecting the project, and providing honest recommendations with a clear, upfront estimate.",
     },
     {
       number: 2,
-      title: "Step 2: Claim Approval",
-      para: "We meet with the adjuster, provide evidence, and ensure all damage is accounted for so the insurance company approves the full scope of work.",
+      title: "Step 2: Customized Planning & Professional Workmanship",
+      para: "Once approved, we create a plan tailored to your home or business and complete the work with skilled craftsmanship and consistent communication.",
     },
     {
       number: 3,
-      title: "Step 3: Full Roof Replacement",
-      para: "Once approved, we replace your roof with high-quality materials and expert installation, restoring your home to code and ensuring long-term protection.",
+      title: "Step 3: Final Walkthrough & Guaranteed Satisfaction",
+      para: "After the job is done, we review everything with you to ensure the project meets our standards—and yours. We don’t consider it complete until you’re fully satisfied.",
     },
   ];
 
   return (
-    <div className="py-8 sm:py-12 lg:py-16 bg-heading">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="relative py-8 sm:py-12 lg:py-16">
+      <div className="absolute inset-0 z-0">
+        <Image
+          src="/images/howWeWork.png"
+          alt="howWeWork"
+          width={1920}
+          height={1200}
+          className="w-full h-full object-cover"
+          priority
+        />
+      </div>
+      <div className="relative container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col items-center justify-center text-center mb-12 sm:mb-16 lg:mb-20">
           <h4 className="text-[16px] text-white mb-2 font-sans tracking-[6px] font-light uppercase">
             How We Work
           </h4>
           <h1 className="text-2xl sm:text-3xl lg:text-[40px] font-bold text-white mb-4 font-mono leading-tight">
-            The Storm Trooper Roofing's 3-Step Process
+            The Maxwell Mountain Construction’s 3-Step Process
           </h1>
           <p className="text-[16px] text-white/80 leading-relaxed font-sans">
             From the first call to the final nail, our team is with you at every
