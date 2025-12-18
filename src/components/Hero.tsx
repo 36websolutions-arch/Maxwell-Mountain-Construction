@@ -46,7 +46,7 @@ export default function Hero() {
                   <span className="font-sans font-bold text-[16px] text-white">
                     &quot;Well done is better than well said&quot;
                     <br />{" "}
-                    <p className="lg:text-end md:text-center">
+                    <p className="lg:text-end font-sans md:text-center text-[14px] font-extrabold">
                       -Benjamin Franklin
                     </p>
                   </span>
