@@ -44,8 +44,11 @@ export default function Hero() {
                     <Button />
                   </div>
                   <span className="font-sans font-bold text-[16px] text-white">
-                    Benjamin Franklin &quot;Well done is <br /> better than well
-                    said&quot;
+                    &quot;Well done is better than well said&quot;
+                    <br />{" "}
+                    <p className="lg:text-end md:text-center">
+                      -Benjamin Franklin
+                    </p>
                   </span>
                 </div>
               </div>
