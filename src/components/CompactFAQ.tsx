@@ -8,19 +8,21 @@ const CompactFAQ = () => {
 
   const faqData = [
     {
-      question: "How long does it take for the qoute?",
+      question:
+        "What is the first step to starting a project with Maxwell Mountain Construction?",
       answer:
-        "We typically provide a preliminary estimate within 24–48 hours after an on-site consultation or project review. Final timelines depend on project scope, materials, and scheduling.",
+        "The first step is a consultation where we discuss your goals, timeline, and budget to determine the best path forward.",
     },
     {
-      question: "How many years have you been on construction?",
+      question: "Do you work on both small and large construction projects?",
       answer:
-        "Yes. We work year-round and schedule projects based on weather conditions, project type, and material requirements to ensure quality and safety.",
+        "Yes, we take on everything from small repairs to full-scale construction projects.",
     },
     {
-      question: "Do you offer free consultations or inspections?",
+      question:
+        "How much experience does Maxwell Mountain Construction bring to a project?",
       answer:
-        "Yes. We offer free consultations and inspections to evaluate your project, answer questions, and provide honest recommendations before any work begins.",
+        "With over two decades in construction spanning consulting, hands-on foreman work, project management, budgeting, and cost control, Maxwell Mountain Construction brings well-rounded expertise and leadership to every project from start to finish.",
     },
     // {
     //   question: "Can you repair storm damage without replacing the whole roof?",
@@ -45,7 +47,7 @@ const CompactFAQ = () => {
         <div className="mb-8 text-center">
           <h4 className="text-[20px] font-semibold text-heading mb-2">FAQ</h4>
           <h2 className="lg:text-[48px] md:text-4xl sm:text-3xl text-2xl font-mono font-semibold text-heading">
-            Answers to common <br /> questions
+            Answers to your <br className="hidden sm:block" /> roofing questions
           </h2>
         </div>
 

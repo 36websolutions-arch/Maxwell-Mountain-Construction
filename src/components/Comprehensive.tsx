@@ -17,7 +17,7 @@ const servicesData: Service[] = [
       "We provide full-scale siding solutions designed for long-term performance. Our team evaluates moisture barriers, flashing, and structural framing before installing high-grade siding engineered for severe weather. Every install includes precision fastening, proper ventilation, and detailed trim work so your exterior stays strong, sealed, and visually consistent.",
     kicker: "WHAT WE DO",
     phone: "(614) 397-4368",
-    imageSrc: "/images/roof4.png",
+    imageSrc: "/images/roof1.png",
   },
   {
     title: "Roofing & siding",
@@ -33,7 +33,7 @@ const servicesData: Service[] = [
       "We handle functional, well-planned remodels that improve how your home looks, feels, and works day to day. From kitchens and bathrooms to finished basements, we focus on smart layouts, clean installations, and materials built to last. Our team coordinates demolition, framing, finish work, and final details with a clear plan and realistic timelines. The result is a finished space that adds comfort, usability, and long-term value to your home.",
     kicker: "WHAT WE DO",
     phone: "(614) 397-4368",
-    imageSrc: "/images/Kitchen.png",
+    imageSrc: "/images/roof3.png",
   },
   {
     title: "Gutters & window replacements",
@@ -41,7 +41,7 @@ const servicesData: Service[] = [
       "We install and replace gutters and windows designed to protect your home from water intrusion, drafts, and long-term structural damage. Proper fit, alignment, and sealing are critical—and that’s where experience matters.Every installation is measured carefully and completed with secure fastening, clean trim work, and attention to drainage and insulation so your home stays dry, efficient, and protected in all seasons.",
     kicker: "WHAT WE DO",
     phone: "(614) 397-4368",
-    imageSrc: "/images/Gutters.png",
+    imageSrc: "/images/roof4.png",
   },
   {
     title: "Residential & Vacation Rental Cleaning",
