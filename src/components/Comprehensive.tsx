@@ -65,13 +65,13 @@ export default function Comprehensive() {
   return (
     <section id="services" className="py-16 relative bg-white">
       {/* Dark Background (450px height only) */}
-      <div className="absolute top-0 left-0 w-full h-[458px]  z-10">
+      <div className="absolute top-0 left-0 w-full lg:h-[458px] md:h-auto  z-10">
         <Image
           src="/images/Comprehensive.png"
           alt="hero"
           width={1920}
-          height={458}
-          className="w-full h-fit object-cover brightness-60"
+          height={380}
+          className="w-full lg:h-full h-[380px] object-cover brightness-60"
         />
       </div>
 

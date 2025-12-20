@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 export default function about() {
   return (
-    <section id="about" className="py-16 bg-white">
+    <section id="about" className="lg:py-16 py-12 bg-white">
       <div className="container mx-auto px-6">
         <div className="grid lg:grid-cols-2 grid-cols-1 gap-5 justify-between items-center">
           <div>
