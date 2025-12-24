@@ -35,13 +35,16 @@ export default function Footer() {
   const socialLinks = [
     {
       icon: <FaFacebook className="w-8 h-8" />,
+      href: "https://www.facebook.com/share/1KTb74LUYB/?mibextid=wwXIfr",
     },
-    {
-      icon: <FaYoutube className="w-8 h-8" />,
-    },
-    {
-      icon: <FaInstagram className="w-8 h-8" />,
-    },
+    // {
+    //   icon: <FaYoutube className="w-8 h-8" />,
+    //   href: "https://www.youtube.com/@maxwellmountainconstruction",
+    // },
+    // {
+    //   icon: <FaInstagram className="w-8 h-8" />,
+    //   href: "https://www.instagram.com/maxwellmountainconstruction/",
+    // },
   ];
 
   return (
@@ -160,7 +163,8 @@ export default function Footer() {
                   {socialLinks.map((social, index) => (
                     <Link
                       key={index}
-                      href="#"
+                      href={social.href}
+                      target="_blank"
                       className="group flex flex-col items-center justify-center">
                       <div
                         className={`text-white transition-colors duration-300 mb-1 lg:mb-2`}>
